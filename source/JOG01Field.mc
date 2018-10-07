@@ -153,14 +153,7 @@ class JOG01View extends Ui.DataField {
                 }
             }
         }
-        
-        //if (hr>170){
-        //	hrColor = Graphics.COLOR_RED;
-    	//}else if (hr<140){
-    	//	hrColor = Graphics.COLOR_GREEN;
-    	//}else{
-    	//	hrColor = textColor;
-    	//}
+
     }
     
     function onLayout(dc) {
@@ -263,38 +256,35 @@ class JOG01View extends Ui.DataField {
          	dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
         }
         
-        dc.fillRectangle(60,79,130,81);
-//        dc.fillRectangle(60,147,130,15);
- //       dc.fillRectangle(60,79,130,15);
-        
-        
+        //dc.fillRectangle(60,79,130,81);
         
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
         
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         if (hr>=100 && hr<120){
         	dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);	
-        }else if (hr>=120 && hr<140){
+        }else if (hr>=150 && hr<160){
          	dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
-        }else if (hr>=140 && hr<160){
+        }else if (hr>=160 && hr<170){
          	dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
-        }else if (hr>=160 && hr<180){
+        }else if (hr>=170 && hr<180){
          	dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_TRANSPARENT);
         }else if (hr>=180){
          	dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
         }
         
-        dc.fillRectangle(0,79,60,81);
+        dc.fillRectangle(0,80,120,20);
         
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
         
         
 		var speedLisse = computeAvgSpeed * 3.6;
-        dc.drawText(dc.getWidth() /2+5 , 120, Graphics.FONT_NUMBER_HOT, getMinutesPerKmOrMile(speed / 3.6), CENTER);//speedLisse.format("%.1f")//speed.format("%.1f")
+        dc.drawText(dc.getWidth() /2+5 , 50, Graphics.FONT_NUMBER_HOT, getMinutesPerKmOrMile(speed / 3.6), CENTER);//speedLisse.format("%.1f")//speed.format("%.1f")
+        //cadencce
+        //dc.drawText(212 , 120,Graphics.FONT_NUMBER_MILD, currentCadence.format("%d"), CENTER);// currentCadence.format("%d")
         
-        dc.drawText(212 , 120,Graphics.FONT_NUMBER_MILD, currentCadence.format("%d"), CENTER);// currentCadence.format("%d")
-        
-        dc.drawText(30 , 120, Graphics.FONT_NUMBER_MILD, hr.format("%d"), CENTER);// hr.format("%d")
+        //hr
+        dc.drawText(30 ,90, HEADER_FONT, hr.format("%d"), CENTER);// hr.format("%d")
         dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
         
         //if (computeAvgSpeed>computeAvgSpeed3s){
@@ -330,13 +320,15 @@ class JOG01View extends Ui.DataField {
         //dc.drawText(115 , 151, Graphics.FONT_NUMBER_MILD, durationLap, CENTER); 
         var speedLapKmh = speedLap * 3.6;
         dc.drawText(165 , 180, Graphics.FONT_NUMBER_MEDIUM,  getMinutesPerKmOrMile(speedLapKmh / 3.6), CENTER);//
-        //dc.drawText(205 , 151, Graphics.FONT_NUMBER_MILD, convertDistance(distLap), CENTER);//
+        dc.drawText(205 , 90, HEADER_FONT, "D:" + convertDistance(distLap), CENTER);//
+        dc.drawText(150, 90, HEADER_FONT, durationLap, CENTER); 
+        
         dc.drawText(75 , 180, VALUE_FONT, avgSpeedKmh.format("%.1f"), CENTER);//
         dc.drawText(80, 210, HEADER_FONT, "V Moy", CENTER);
         dc.drawText(155, 210, HEADER_FONT, "V Tour", CENTER);
         
-        dc.drawText(35, 88, HEADER_FONT, "HR", CENTER);
-        dc.drawText(210, 88, HEADER_FONT, "CAD", CENTER);
+        //dc.drawText(35, 88, HEADER_FONT, "HR", CENTER);
+        //dc.drawText(210, 88, HEADER_FONT, "CAD", CENTER);
  
         //dc.drawText(30 , 151, Graphics.FONT_NUMBER_MILD, distLapStr, CENTER);//
         //dc.drawText(150 , 28, Graphics.FONT_TINY, distLapStr, CENTER);//distLapStr
@@ -346,39 +338,16 @@ class JOG01View extends Ui.DataField {
         
         
         
-        //hr
-        if (hr>0){
-	       dc.setColor(hrColor, Graphics.COLOR_TRANSPARENT);
-	       //dc.drawText(142, 185, Graphics.FONT_NUMBER_MILD,hr.format("%d"), CENTER);//hr.format("%d")
-	     
-	       
-	       //dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
-	       //dc.drawText(46, 176, HEADER_FONT,"avg", CENTER);
-	       //dc.drawText(90, 179, Graphics.FONT_NUMBER_MILD,avghr.format("%d"), CENTER);
-	       //dc.drawText(50, 197, HEADER_FONT,"max", CENTER);
-	       //dc.drawText(90, 207, Graphics.FONT_NUMBER_MILD,maxhr.format("%d"), CENTER);//maxhr.format("%d")
-        }else{
-        	//affichage d+
-        	//dc.drawText(147, 172, HEADER_FONT,"D+", CENTER);
-        	//dc.drawText(50, 175, Graphics.FONT_NUMBER_MILD,speed.format("%.1f"), CENTER);//speed.format("%d")
-        	//dc.drawText(100, 185, Graphics.FONT_NUMBER_MEDIUM,ascension.format("%d"), CENTER);//ascension.format("%d")
-        	//dc.drawText(145, 202, HEADER_FONT,"m", CENTER);
-        }
-        
-        //cadence
-        //dc.drawText(55 , 28, Graphics.FONT_TINY, averageCadence.format("%d"), CENTER);// averageCadence.format("%d")
-        //dc.drawText(55 , 28, Graphics.FONT_TINY, compteurLap.format("%d"), CENTER);//distLapStr
-	   //dc.drawText(90 , 28, Graphics.FONT_TINY, currentCadence.format("%d"), CENTER);// currentCadence.format("%d")
-        
+  
         //VMAX
         var vMax = maxSpeed * 3.6;
         //dc.drawText(193, 180, Graphics.FONT_NUMBER_MILD,vMax.format("%.1f")  , CENTER);   //vMax.format("%.1f")     
         
 
         dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(dc.getWidth()-70, 60, VALUE_FONT,convertDistance(distance) , CENTER);//distStr
-        dc.drawText(dc.getWidth()-80, 30, HEADER_FONT, "Distance", CENTER);
-        dc.drawText(80, 30, HEADER_FONT, "Chrono", CENTER);
+        dc.drawText(dc.getWidth()-70, 130, VALUE_FONT, convertDistance(distance), CENTER);//convertDistance(distance)
+        //dc.drawText(dc.getWidth()-80, 90, HEADER_FONT, "Dist", CENTER);
+        dc.drawText(80, 90, HEADER_FONT, "Chrono", CENTER);
         
                 
         //duration
@@ -390,8 +359,8 @@ class JOG01View extends Ui.DataField {
         } else {
             duration = ZERO_TIME;
         } 
-		dc.drawText(75, 60, VALUE_FONT, duration, CENTER);//duration      	
-        dc.drawText(22, 70,Graphics.FONT_TINY,msToTime(timeEtude,1), CENTER);//msToTime(timeEtude,1)    	
+		dc.drawText(75, 130, VALUE_FONT, duration, CENTER);//duration      	
+        dc.drawText(22, 140,Graphics.FONT_TINY,msToTime(timeEtude,1), CENTER);//msToTime(timeEtude,1)    	
             
         
                
@@ -414,9 +383,9 @@ class JOG01View extends Ui.DataField {
         dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
         dc.drawLine(0, dc.getHeight()/3, dc.getWidth(), dc.getHeight()/3);
         dc.drawLine(0, 2*dc.getHeight()/3, dc.getWidth(), 2*dc.getHeight()/3);
-        dc.drawLine(dc.getWidth()/3-20, dc.getHeight()/3, dc.getWidth()/3-20, 2*dc.getHeight()/3);
-        dc.drawLine(2*dc.getWidth()/3+30, dc.getHeight()/3, 2*dc.getWidth()/3+30, 2*dc.getHeight()/3);
-        dc.drawLine(dc.getWidth()/2, 18, dc.getWidth()/2, dc.getHeight()/3);
+        //dc.drawLine(dc.getWidth()/3-20, dc.getHeight()/3, dc.getWidth()/3-20, 2*dc.getHeight()/3);
+        //dc.drawLine(2*dc.getWidth()/3+30, dc.getHeight()/3, 2*dc.getWidth()/3+30, 2*dc.getHeight()/3);
+        dc.drawLine(dc.getWidth()/2, dc.getHeight()/3, dc.getWidth()/2, 2*dc.getHeight()/3);
         dc.drawLine(dc.getWidth()/2, 2*dc.getWidth()/3, dc.getWidth()/2, dc.getHeight());
         
         
