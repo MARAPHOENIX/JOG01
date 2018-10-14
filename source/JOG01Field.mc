@@ -76,7 +76,7 @@ class JOG01View extends Ui.DataField {
     
     //
     hidden var ascension=0;
-    
+    hidden var switchData = 0;
     
     hidden var hasBackgroundColorOption = false;
     
@@ -91,12 +91,23 @@ class JOG01View extends Ui.DataField {
         distLapCourant = distance != null ? distance : 0;
         timeLapTmp = elapsedTime - timeLapCourant; 
         timeLapCourant = elapsedTime != null ? elapsedTime : 0;
-                
         if (timeLapTmp != null && timeLapTmp > 0) {
  			timeLapStr = msToTime(timeLapTmp,0);
         } else {
             timeLapStr = ZERO_TIME;
         } 
+        
+        if (timeLap != null && timeLap > 0) {
+        	if (timeLap < 4000){
+        		if (switchData == 0){
+        			switchData = 1;
+        		}else{
+        			switchData = 0;
+        		}
+        	}
+        } 
+        
+        
 
     }
 
@@ -122,7 +133,6 @@ class JOG01View extends Ui.DataField {
         distance = info.elapsedDistance != null ? info.elapsedDistance : 0;
         gpsSignal = info.currentLocationAccuracy != null ? info.currentLocationAccuracy : 0;
         
-		
 		speed = speed * 3.6;
 
         maxCadence = info.maxCadence != null ? info.maxCadence : 0;
@@ -140,6 +150,7 @@ class JOG01View extends Ui.DataField {
             if (elapsedTime != null &&  distance != null){
                 distLap = distance - distLapCourant;
                 timeLap =  elapsedTime - timeLapCourant;
+                
                 if (distLap>0 && timeLap>0){
                     var timeLapSecond = timeLap / 1000;
                     if (timeLapSecond != null && timeLapSecond > 0.2){
@@ -258,24 +269,28 @@ class JOG01View extends Ui.DataField {
         
         //dc.fillRectangle(60,79,130,81);
         
-        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+        //dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
         
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+      
         if (hr>=100 && hr<120){
-        	dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);	
+        	//dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);	
         }else if (hr>=150 && hr<160){
          	dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
+         	dc.fillRectangle(0,130,120,20);
         }else if (hr>=160 && hr<170){
          	dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
+         	dc.fillRectangle(0,130,120,20);
         }else if (hr>=170 && hr<180){
          	dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_TRANSPARENT);
+         	dc.fillRectangle(0,130,120,20);
         }else if (hr>=180){
          	dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+         	dc.fillRectangle(0,130,120,20);
         }
         
-        dc.fillRectangle(0,80,120,20);
         
-        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+        
+        dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
         
         
 		var speedLisse = computeAvgSpeed * 3.6;
@@ -284,7 +299,7 @@ class JOG01View extends Ui.DataField {
         //dc.drawText(212 , 120,Graphics.FONT_NUMBER_MILD, currentCadence.format("%d"), CENTER);// currentCadence.format("%d")
         
         //hr
-        dc.drawText(30 ,90, HEADER_FONT, hr.format("%d"), CENTER);// hr.format("%d")
+        dc.drawText(30 ,140, HEADER_FONT, hr.format("%d"), CENTER);// hr.format("%d")
         dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
         
         //if (computeAvgSpeed>computeAvgSpeed3s){
@@ -297,15 +312,7 @@ class JOG01View extends Ui.DataField {
         
        
         
-        
-        //hr=111;
-        if (hr>170){
-        	//dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-        	//dc.fillRectangle(110,165,47,5);
-    	}else if (hr<140 && hr>0){
-    		//dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
-        	//dc.fillRectangle(110,165,47,5);
-    	}
+
     	
 
         dc.setColor(textColor, Graphics.COLOR_TRANSPARENT); 
@@ -320,11 +327,17 @@ class JOG01View extends Ui.DataField {
         //dc.drawText(115 , 151, Graphics.FONT_NUMBER_MILD, durationLap, CENTER); 
         var speedLapKmh = speedLap * 3.6;
         dc.drawText(165 , 180, Graphics.FONT_NUMBER_MEDIUM,  getMinutesPerKmOrMile(speedLapKmh / 3.6), CENTER);//
-        dc.drawText(205 , 90, HEADER_FONT, "D:" + convertDistance(distLap), CENTER);//
-        dc.drawText(150, 90, HEADER_FONT, durationLap, CENTER); 
+        
+    
+
         
         dc.drawText(75 , 180, VALUE_FONT, avgSpeedKmh.format("%.1f"), CENTER);//
-        dc.drawText(80, 210, HEADER_FONT, "V Moy", CENTER);
+        
+        if (switchData == 0){
+           dc.drawText(80, 210, HEADER_FONT, "V Moy", CENTER);
+        }else{
+        	dc.drawText(80, 210, HEADER_FONT, "Switch", CENTER);
+        }
         dc.drawText(155, 210, HEADER_FONT, "V Tour", CENTER);
         
         //dc.drawText(35, 88, HEADER_FONT, "HR", CENTER);
@@ -345,9 +358,8 @@ class JOG01View extends Ui.DataField {
         
 
         dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(dc.getWidth()-70, 130, VALUE_FONT, convertDistance(distance), CENTER);//convertDistance(distance)
         //dc.drawText(dc.getWidth()-80, 90, HEADER_FONT, "Dist", CENTER);
-        dc.drawText(80, 90, HEADER_FONT, "Chrono", CENTER);
+        dc.drawText(80, 140, HEADER_FONT, "Chrono", CENTER);
         
                 
         //duration
@@ -359,9 +371,24 @@ class JOG01View extends Ui.DataField {
         } else {
             duration = ZERO_TIME;
         } 
-		dc.drawText(75, 130, VALUE_FONT, duration, CENTER);//duration      	
-        dc.drawText(22, 140,Graphics.FONT_TINY,msToTime(timeEtude,1), CENTER);//msToTime(timeEtude,1)    	
-            
+		
+		if (switchData == 0){
+		        dc.drawText(dc.getWidth()-70, 100, VALUE_FONT, convertDistance(distance), CENTER);//convertDistance(distance)
+				dc.drawText(75, 100, VALUE_FONT, duration, CENTER);//duration      	
+       			dc.drawText(22, 110,Graphics.FONT_TINY,msToTime(timeEtude,1), CENTER);//msToTime(timeEtude,1)    
+		}else{
+			 dc.drawText(dc.getWidth()-70, 100, VALUE_FONT, convertDistance(distLap), CENTER);//convertDistance(distance)
+			 dc.drawText(75, 100, VALUE_FONT, durationLap, CENTER);//duration   
+		}
+	
+        
+        if (switchData == 0){
+           dc.drawText(210 ,140, Graphics.FONT_NUMBER_MILD, convertDistance(distLap), CENTER);//
+           dc.drawText(150, 140, Graphics.FONT_NUMBER_MILD, durationLap, CENTER); 
+        }else{
+           dc.drawText(210 , 140, Graphics.FONT_NUMBER_MILD, convertDistance(distance), CENTER);//
+           dc.drawText(150, 140, Graphics.FONT_NUMBER_MILD, duration, CENTER); 
+        }
         
                
         //grid
@@ -388,6 +415,7 @@ class JOG01View extends Ui.DataField {
         dc.drawLine(dc.getWidth()/2, dc.getHeight()/3, dc.getWidth()/2, 2*dc.getHeight()/3);
         dc.drawLine(dc.getWidth()/2, 2*dc.getWidth()/3, dc.getWidth()/2, dc.getHeight());
         
+        dc.drawLine(0,120, dc.getWidth(), 120);
         
         if (hr>0){
         	//dc.drawLine(dc.getWidth()/2, 165, dc.getWidth()/2, dc.getHeight());
