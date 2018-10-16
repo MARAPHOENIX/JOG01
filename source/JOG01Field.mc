@@ -242,7 +242,6 @@ class JOG01View extends Ui.DataField {
         dc.drawText(147, 10, Graphics.FONT_TINY,battery.format("%d"), CENTER);
  
         var computeAvgSpeed = computeAverageSpeed(paceData);
-        var computeAvgSpeed3s = computeAverageSpeed(paceData3);
        
         
         dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
@@ -255,35 +254,70 @@ class JOG01View extends Ui.DataField {
             durationLap = ZERO_TIME;
         } 
 
-       //AVG NEW
-
-        
-        var avgSpeedKmh = avgSpeed * 3.6;
-      
-        //dc.drawText(87, 85, HEADER_FONT, "lap", CENTER);
-        var speedLapCourantKmh = speedLapCourant * 3.6;
-        //LAST LAP--------------------------------------------------------------------------------
-        //dc.drawText(95 , 120, Graphics.FONT_SMALL, speedLapCourantKmh.format("%.1f"), CENTER);//
-        //dc.drawText(97, 93, Graphics.FONT_SMALL, timeLapStr, CENTER);
-        //dc.drawText(141 , 111, Graphics.FONT_SMALL, convertDistance(distLapOnLap) , CENTER);
-        //dc.drawText(139, 89, HEADER_FONT, "dlap", CENTER);
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        if (speed>=10 && speed<12){
-        	dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);	
-        }else if (speed>=12 && speed<14){
-         	dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
-        }else if (speed>=14 && speed<16){
-         	dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
-        }else if (speed>=16 && speed<18){
-         	dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_TRANSPARENT);
-        }else if (speed>=18){
-         	dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+		var avgSpeedKmh = avgSpeed * 3.6;
+        if (switchData == 0){
+            if (afficheSpeed){
+                dc.drawText(dc.getWidth() /2+2 , 50, Graphics.FONT_NUMBER_THAI_HOT,getMinutesPerKmOrMile(speed / 3.6) , CENTER);//speedLisse.format("%.1f")//speed.format("%.1f")
+            }else{
+                dc.drawText(dc.getWidth() /2+2 , 50, Graphics.FONT_NUMBER_THAI_HOT, avgSpeedKmh.format("%.1f"), CENTER);//speedLisse.format("%.1f")//speed.format("%.1f")
+            }
+        }else{
+            dc.drawText(dc.getWidth() /2+5 , 50, Graphics.FONT_NUMBER_THAI_HOT,getMinutesPerKmOrMile(speedLap / 3.6) , CENTER);
         }
+
+		
+
+        //duration
+        var duration;
+        var timeEtude = elapsedTime;
+        //timeEtude = 55801800;
+        if (timeEtude != null && timeEtude > 0) {
+            duration = msToTime(timeEtude,0);
+        } else {
+            duration = ZERO_TIME;
+        } 
+		
+		dc.drawText(200, 163, HEADER_FONT, "km", CENTER);
+		
+		if (switchData == 0){
+		    dc.drawText(dc.getWidth()/2, 180, Graphics.FONT_NUMBER_HOT, convertDistance(distance), CENTER);//convertDistance(distance)
+			dc.drawText(dc.getWidth()/2, 121, Graphics.FONT_NUMBER_HOT, duration, CENTER);//duration      	
+		}else{
+		    dc.drawText(dc.getWidth()/2, 180, Graphics.FONT_NUMBER_HOT, convertDistance(distLap), CENTER);//convertDistance(distance)
+			dc.drawText(dc.getWidth()/2, 121, Graphics.FONT_NUMBER_HOT, durationLap, CENTER);//duration      	
+		}
+
+        //tendance speed
+        if (avgSpeed>speedLap){
+        	dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+            drawBlocSpeed(dc,avgSpeed,speedLap,0);
+        }else if (speedLap>avgSpeed){
+         	dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
+            drawBlocSpeed(dc,speedLap,avgSpeed,0);
+        }
+		    
+		if (computeAvgSpeed>speedLap && speedLap>0){
+        	dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
+            drawBlocSpeed(dc,computeAvgSpeed,speedLap,120);
+        }else if (speedLap>computeAvgSpeed && speedLap>0){
+         	dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+         	drawBlocSpeed(dc,speedLap,computeAvgSpeed,120);
+        }
+
+        //GRID
+        dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
+        dc.drawLine(0,80, dc.getWidth(), 80);
+        dc.drawLine(0,81, dc.getWidth(), 81);
+        dc.drawLine(0,150, dc.getWidth(), 150);
+        dc.drawLine(0,151, dc.getWidth(), 151);
         
-        //dc.fillRectangle(60,79,130,81);
-        
-        //dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
-        
+  
+                
+        // gps 
+        if (gpsSignal <= 2) {
+           dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+           //dc.drawText(22, 152, HEADER_FONT, "GPS", CENTER);
+        } 
       
         if (hr>=100 && hr<150){
         	dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);	
@@ -302,149 +336,33 @@ class JOG01View extends Ui.DataField {
          	dc.fillRectangle(0,210,240,20);
         }
         
-        
-        
+                
+        //HR
         dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
-        
-        
-		var speedLisse = computeAvgSpeed * 3.6;
-		if (afficheSpeed){
-		//getMinutesPerKmOrMile(speed / 3.6)
-			dc.drawText(dc.getWidth() /2+5 , 50, Graphics.FONT_NUMBER_THAI_HOT,getMinutesPerKmOrMile(speed / 3.6) , CENTER);//speedLisse.format("%.1f")//speed.format("%.1f")
-		}else{
-			dc.drawText(dc.getWidth() /2+5 , 50, Graphics.FONT_NUMBER_THAI_HOT, avgSpeedKmh.format("%.1f"), CENTER);//speedLisse.format("%.1f")//speed.format("%.1f")
-		}
-		//cadencce
-        //dc.drawText(212 , 120,Graphics.FONT_NUMBER_MILD, currentCadence.format("%d"), CENTER);// currentCadence.format("%d")
-        
-        //hr
         dc.drawText(dc.getWidth()/2 ,223, Graphics.FONT_NUMBER_MILD, hr.format("%d"), CENTER);// hr.format("%d")
-        dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
-        
-
-        
-       
-        
-
-    	
-
-        dc.setColor(textColor, Graphics.COLOR_TRANSPARENT); 
-        var speedLapKmh = speedLap * 3.6;
-        //format("%.1f")
-        //dc.drawText(165 , 180, Graphics.FONT_NUMBER_MEDIUM, speedLapKmh.format("%.1f") , CENTER);//getMinutesPerKmOrMile(speedLapKmh / 3.6)
-        
-    
-        if (avgSpeed>speedLap){
-        	dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-        	dc.fillRectangle(0,80,120,15);
-        }else if (speedLap>avgSpeed){
-         	dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
-         	dc.fillRectangle(0,80,120,15);
-        }
-		    
-		if (computeAvgSpeed>speedLap){
-        	dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-        	dc.fillRectangle(120,80,120,15);
-        }else if (speedLap>computeAvgSpeed){
-         	dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
-         	dc.fillRectangle(120,80,120,15);
-        }
-
-        //AVG
-        //dc.drawText(75 , 180, VALUE_FONT, avgSpeedKmh.format("%.1f"), CENTER);//
-        
-        if (switchData == 0){
-           //dc.drawText(80, 210, HEADER_FONT, "V Moy", CENTER);
-        }else{
-        	dc.drawText(80, 210, HEADER_FONT, "Switch", CENTER);
-        }
-        //dc.drawText(155, 210, HEADER_FONT, "V Tour", CENTER);
-        
-        //dc.drawText(35, 88, HEADER_FONT, "HR", CENTER);
-        //dc.drawText(210, 88, HEADER_FONT, "CAD", CENTER);
-        //dc.drawText(30 , 151, Graphics.FONT_NUMBER_MILD, distLapStr, CENTER);//
-        //dc.drawText(150 , 28, Graphics.FONT_TINY, distLapStr, CENTER);//distLapStr
-        
-        
-
-        
-        
-        
-  
-        //VMAX
-        var vMax = maxSpeed * 3.6;
-        //dc.drawText(193, 180, Graphics.FONT_NUMBER_MILD,vMax.format("%.1f")  , CENTER);   //vMax.format("%.1f")     
-        
-
-        dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
-        //dc.drawText(dc.getWidth()-80, 90, HEADER_FONT, "Dist", CENTER);
-        //dc.drawText(80, 140, HEADER_FONT, "Chrono", CENTER);
-        
-                
-        //duration
-        var duration;
-        var timeEtude = elapsedTime;
-        //timeEtude = 55801800;
-        if (timeEtude != null && timeEtude > 0) {
-            duration = msToTime(timeEtude,0);
-        } else {
-            duration = ZERO_TIME;
-        } 
-		
-		dc.drawText(200, 163, HEADER_FONT, "km", CENTER);
-		
-		if (switchData == 0){
-		//convertDistance(distance)
-		        dc.drawText(dc.getWidth()/2, 180, Graphics.FONT_NUMBER_HOT, convertDistance(distance), CENTER);//convertDistance(distance)
-				dc.drawText(dc.getWidth()/2, 121, Graphics.FONT_NUMBER_HOT, duration, CENTER);//duration      	
-       			//dc.drawText(22, 110,Graphics.FONT_TINY,msToTime(timeEtude,1), CENTER);//msToTime(timeEtude,1)    
-		}else{
-			 dc.drawText(dc.getWidth()-70, 100, VALUE_FONT, convertDistance(distLap), CENTER);//convertDistance(distance)
-			 dc.drawText(75, 100, VALUE_FONT, durationLap, CENTER);//duration   
-		}
-	
-        
-        if (switchData == 0){
-           //dc.drawText(210 ,140, Graphics.FONT_NUMBER_MILD, convertDistance(distLap), CENTER);//
-           //dc.drawText(150, 140, Graphics.FONT_NUMBER_MILD, durationLap, CENTER); 
-        }else{
-           dc.drawText(210 , 140, Graphics.FONT_NUMBER_MILD, convertDistance(distance), CENTER);//
-           dc.drawText(150, 140, Graphics.FONT_NUMBER_MILD, duration, CENTER); 
-        }
-        
-               
-        //grid
-        //dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-        //dc.drawLine(0, dc.getHeight()/3, dc.getWidth(), dc.getHeight()/3);
-        //dc.drawLine(0, 2*dc.getHeight()/3, dc.getWidth(), 2*dc.getHeight()/3);
-        //dc.drawLine(dc.getWidth()/2, dc.getHeight()/3, dc.getWidth()/2, 2*dc.getHeight()/3);
-        //dc.drawLine(dc.getWidth()/2, 2*dc.getWidth()/3, dc.getWidth()/2, dc.getHeight());
-        //dc.drawLine(0,120, dc.getWidth(), 120);
-        
-        dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
-        dc.drawLine(0,80, dc.getWidth(), 80);
-        dc.drawLine(0,81, dc.getWidth(), 81);
-        //dc.drawLine(dc.getWidth()/2,dc.getHeight()/2, dc.getWidth()/2, dc.getHeight());
-        dc.drawLine(0,150, dc.getWidth(), 150);
-        dc.drawLine(0,151, dc.getWidth(), 151);
-        
-        
-        if (hr>0){
-        	//dc.drawLine(dc.getWidth()/2, 165, dc.getWidth()/2, dc.getHeight());
- 		}
-        //dc.drawLine(dc.getWidth()/2+47, 165, dc.getWidth()/2+47, dc.getHeight());
-        
-                
-        // gps 
-        if (gpsSignal <= 2) {
-           dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-           dc.drawText(22, 152, HEADER_FONT, "GPS", CENTER);
-        } 
         
     }
+
+
+    function drawBlocSpeed(dc, speed1, speed2,decalage){
+        if (getDiffSpeed(speed1,speed2)>30){
+           dc.fillRectangle(0+decalage,80,15,15);
+        }
+
+        if (getDiffSpeed(speed1,speed2)<30){
+            dc.fillRectangle(0+decalage,80,37,15);
+        }
+
+        if (getDiffSpeed(speed1,speed2)<20){
+            dc.fillRectangle(40+decalage,80,37,15);
+        }
+
+        if (getDiffSpeed(speed1,speed2)<10){
+            dc.fillRectangle(80+decalage,80,37,15);
+        }
+    }
     
-   
-    
+
     function computeAverageSpeed(tableau) {
         var size = 0;
         var data = tableau.getData();
@@ -507,6 +425,29 @@ class JOG01View extends Ui.DataField {
             return minutesPerKmOrMilesDecimal.format("%2d") + ":" + seconds.format("%02d");
         }
         return ZERO_TIME;
+    }
+
+    function getDiffSpeed(speedMetersPerSecond1,speedMetersPerSecond2) {
+        //speedMetersPerSecond1 must be >= speedMetersPerSecond2
+        var secondesPerKmOrMilesDecimal1 = 0;
+        if (speedMetersPerSecond1 != null && speedMetersPerSecond1 > 0.2) {
+            var metersPerMinute1 = speedMetersPerSecond1 * 60.0;
+            var minutesPerKmOrMilesDecimal1 = kmOrMileInMeters / metersPerMinute1;
+            secondesPerKmOrMilesDecimal1 =  minutesPerKmOrMilesDecimal1 * 60;
+        }
+
+        var secondesPerKmOrMilesDecimal2 = 0;
+        if (speedMetersPerSecond2 != null && speedMetersPerSecond2 > 0.2) {
+            var metersPerMinute2 = speedMetersPerSecond2 * 60.0;
+            var minutesPerKmOrMilesDecimal2 = kmOrMileInMeters / metersPerMinute2;
+            secondesPerKmOrMilesDecimal2 =  minutesPerKmOrMilesDecimal2 * 60;
+        }
+
+        if (secondesPerKmOrMilesDecimal1>0 &&  secondesPerKmOrMilesDecimal2>0){
+            return secondesPerKmOrMilesDecimal2 - secondesPerKmOrMilesDecimal1;
+        }else{
+            return 0;
+        }
     }
 
 }
