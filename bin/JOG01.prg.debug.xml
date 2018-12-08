@@ -1,444 +1,606 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="9" pc="268435456" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="10" pc="268435460" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="11" pc="268435484" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="85" pc="268435503" symbol="initialize"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="86" pc="268435507" symbol="initialize"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="89" pc="268435526" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="90" pc="268435530" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="91" pc="268435549" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="92" pc="268435565" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="93" pc="268435581" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="94" pc="268435618" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="95" pc="268435643" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="96" pc="268435680" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="97" pc="268435713" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="99" pc="268435748" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="102" pc="268435764" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="103" pc="268435797" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="104" pc="268435814" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="105" pc="268435831" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="107" pc="268435847" symbol="onTimerLap"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="117" pc="268435867" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="118" pc="268435871" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="120" pc="268435893" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="121" pc="268435910" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="122" pc="268435923" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="123" pc="268435934" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="125" pc="268435947" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="129" pc="268435960" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="130" pc="268435973" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="131" pc="268435999" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="132" pc="268436025" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="134" pc="268436054" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="135" pc="268436072" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="136" pc="268436090" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="139" pc="268436105" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="140" pc="268436142" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="141" pc="268436179" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="142" pc="268436216" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="143" pc="268436253" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="144" pc="268436290" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="145" pc="268436327" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="146" pc="268436364" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="147" pc="268436401" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="149" pc="268436438" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="151" pc="268436460" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="152" pc="268436497" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="153" pc="268436534" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="156" pc="268436571" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="158" pc="268436608" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="159" pc="268436625" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="160" pc="268436641" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="161" pc="268436657" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="163" pc="268436676" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="164" pc="268436705" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="165" pc="268436730" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="167" pc="268436755" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="168" pc="268436792" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="169" pc="268436808" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="170" pc="268436829" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="172" pc="268436851" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="176" pc="268436867" symbol="compute"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="183" pc="268436884" symbol="onLayout"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="184" pc="268436888" symbol="onLayout"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="188" pc="268436901" symbol="onShow"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="189" pc="268436905" symbol="onShow"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="190" pc="268436915" symbol="onShow"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="193" pc="268436919" symbol="onHide"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="194" pc="268436923" symbol="onHide"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="197" pc="268436934" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="198" pc="268436938" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="199" pc="268436952" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="202" pc="268436956" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="204" pc="268436968" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="205" pc="268436996" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="207" pc="268437028" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="210" pc="268437043" symbol="setDeviceSettingsDependentVariables"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="211" pc="268437047" symbol="setDeviceSettingsDependentVariables"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="214" pc="268437064" symbol="setColors"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="215" pc="268437068" symbol="setColors"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="216" pc="268437079" symbol="setColors"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="219" pc="268437098" symbol="setColors"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="220" pc="268437157" symbol="setColors"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="221" pc="268437216" symbol="setColors"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="222" pc="268437275" symbol="setColors"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="223" pc="268437334" symbol="setColors"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="224" pc="268437393" symbol="setColors"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="225" pc="268437452" symbol="setColors"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="231" pc="268437515" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="234" pc="268437519" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="235" pc="268437536" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="237" pc="268437612" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="238" pc="268437648" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="239" pc="268437680" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="240" pc="268437712" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="241" pc="268437756" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="242" pc="268437779" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="244" pc="268437837" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="247" pc="268437858" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="250" pc="268437890" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="251" pc="268437890" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="252" pc="268437923" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="254" pc="268437952" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="257" pc="268437962" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="258" pc="268437978" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="259" pc="268437995" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="260" pc="268438006" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="262" pc="268438094" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="265" pc="268438173" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="271" pc="268438258" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="272" pc="268438258" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="274" pc="268438268" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="275" pc="268438289" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="277" pc="268438312" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="280" pc="268438322" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="282" pc="268438365" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="283" pc="268438382" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="284" pc="268438455" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="286" pc="268438514" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="287" pc="268438587" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="291" pc="268438643" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="292" pc="268438663" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="293" pc="268438699" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="295" pc="268438757" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="296" pc="268438793" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="299" pc="268438831" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="300" pc="268438865" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="301" pc="268438901" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="303" pc="268438967" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="304" pc="268439003" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="308" pc="268439035" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="309" pc="268439071" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="310" pc="268439109" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="311" pc="268439147" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="312" pc="268439185" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="317" pc="268439223" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="318" pc="268439240" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="322" pc="268439279" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="323" pc="268439316" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="324" pc="268439352" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="326" pc="268439424" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="327" pc="268439460" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="329" pc="268439532" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="330" pc="268439568" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="332" pc="268439640" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="333" pc="268439676" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="335" pc="268439728" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="336" pc="268439764" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="341" pc="268439799" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="342" pc="268439831" symbol="drawValues"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="347" pc="268439908" symbol="drawBlocSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="348" pc="268439912" symbol="drawBlocSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="349" pc="268439936" symbol="drawBlocSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="352" pc="268439974" symbol="drawBlocSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="353" pc="268439998" symbol="drawBlocSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="356" pc="268440036" symbol="drawBlocSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="357" pc="268440060" symbol="drawBlocSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="360" pc="268440098" symbol="drawBlocSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="361" pc="268440122" symbol="drawBlocSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="366" pc="268440161" symbol="computeAverageSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="367" pc="268440165" symbol="computeAverageSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="368" pc="268440172" symbol="computeAverageSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="369" pc="268440185" symbol="computeAverageSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="370" pc="268440192" symbol="computeAverageSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="371" pc="268440216" symbol="computeAverageSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="372" pc="268440226" symbol="computeAverageSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="373" pc="268440236" symbol="computeAverageSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="376" pc="268440262" symbol="computeAverageSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="377" pc="268440273" symbol="computeAverageSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="379" pc="268440282" symbol="computeAverageSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="384" pc="268440289" symbol="msToTime"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="385" pc="268440293" symbol="msToTime"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="386" pc="268440309" symbol="msToTime"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="387" pc="268440325" symbol="msToTime"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="389" pc="268440335" symbol="msToTime"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="390" pc="268440340" symbol="msToTime"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="391" pc="268440351" symbol="msToTime"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="393" pc="268440371" symbol="msToTime"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="396" pc="268440380" symbol="msToTime"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="397" pc="268440391" symbol="msToTime"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="400" pc="268440496" symbol="msToTime"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="402" pc="268440576" symbol="msToTime"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="407" pc="268440678" symbol="convertDistance"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="408" pc="268440682" symbol="convertDistance"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="410" pc="268440682" symbol="convertDistance"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="411" pc="268440689" symbol="convertDistance"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="413" pc="268440699" symbol="convertDistance"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="416" pc="268440709" symbol="convertDistance"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="419" pc="268440763" symbol="getMinutesPerKmOrMile"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="420" pc="268440767" symbol="getMinutesPerKmOrMile"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="421" pc="268440788" symbol="getMinutesPerKmOrMile"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="422" pc="268440798" symbol="getMinutesPerKmOrMile"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="423" pc="268440811" symbol="getMinutesPerKmOrMile"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="424" pc="268440824" symbol="getMinutesPerKmOrMile"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="425" pc="268440837" symbol="getMinutesPerKmOrMile"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="427" pc="268440880" symbol="getMinutesPerKmOrMile"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="430" pc="268440890" symbol="getDiffSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="432" pc="268440894" symbol="getDiffSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="433" pc="268440901" symbol="getDiffSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="434" pc="268440922" symbol="getDiffSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="435" pc="268440932" symbol="getDiffSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="436" pc="268440945" symbol="getDiffSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="439" pc="268440958" symbol="getDiffSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="440" pc="268440965" symbol="getDiffSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="441" pc="268440986" symbol="getDiffSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="442" pc="268440996" symbol="getDiffSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="443" pc="268441009" symbol="getDiffSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="446" pc="268441022" symbol="getDiffSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="447" pc="268441047" symbol="getDiffSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="449" pc="268441056" symbol="getDiffSpeed"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="465" pc="268441063" symbol="initialize"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="466" pc="268441067" symbol="initialize"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="467" pc="268441078" symbol="initialize"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="471" pc="268441089" symbol="add"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="472" pc="268441093" symbol="add"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="473" pc="268441112" symbol="add"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="477" pc="268441144" symbol="reset"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="478" pc="268441148" symbol="reset"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="479" pc="268441178" symbol="reset"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="481" pc="268441203" symbol="reset"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="485" pc="268441217" symbol="getData"/>
-<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="486" pc="268441221" symbol="getData"/>
-<entry filename="Rez" lineNum="24" pc="268441231" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="28" pc="268441243" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="29" pc="268441267" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="30" pc="268441430" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="31" pc="268441455" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="32" pc="268441507" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="33" pc="268441553" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="34" pc="268441716" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="35" pc="268441741" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="36" pc="268441793" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="39" pc="268441839" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="48" pc="268441877" symbol="TopLeftLayout"/>
-<entry filename="Rez" lineNum="52" pc="268441889" symbol="TopLeftLayout"/>
-<entry filename="Rez" lineNum="53" pc="268441913" symbol="TopLeftLayout"/>
-<entry filename="Rez" lineNum="54" pc="268442046" symbol="TopLeftLayout"/>
-<entry filename="Rez" lineNum="57" pc="268442179" symbol="TopLeftLayout"/>
-<entry filename="Rez" lineNum="66" pc="268442217" symbol="TopRightLayout"/>
-<entry filename="Rez" lineNum="70" pc="268442229" symbol="TopRightLayout"/>
-<entry filename="Rez" lineNum="71" pc="268442253" symbol="TopRightLayout"/>
-<entry filename="Rez" lineNum="72" pc="268442386" symbol="TopRightLayout"/>
-<entry filename="Rez" lineNum="75" pc="268442519" symbol="TopRightLayout"/>
-<entry filename="Rez" lineNum="84" pc="268442557" symbol="BottomLeftLayout"/>
-<entry filename="Rez" lineNum="88" pc="268442569" symbol="BottomLeftLayout"/>
-<entry filename="Rez" lineNum="89" pc="268442593" symbol="BottomLeftLayout"/>
-<entry filename="Rez" lineNum="90" pc="268442726" symbol="BottomLeftLayout"/>
-<entry filename="Rez" lineNum="93" pc="268442859" symbol="BottomLeftLayout"/>
-<entry filename="Rez" lineNum="102" pc="268442897" symbol="BottomRightLayout"/>
-<entry filename="Rez" lineNum="106" pc="268442909" symbol="BottomRightLayout"/>
-<entry filename="Rez" lineNum="107" pc="268442933" symbol="BottomRightLayout"/>
-<entry filename="Rez" lineNum="108" pc="268443066" symbol="BottomRightLayout"/>
-<entry filename="Rez" lineNum="111" pc="268443199" symbol="BottomRightLayout"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="17" pc="268435456" symbol="fm"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="18" pc="268435460" symbol="fm"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="19" pc="268435483" symbol="fm"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="22" pc="268435487" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="23" pc="268435491" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="25" pc="268435507" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="26" pc="268435507" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="27" pc="268435507" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="29" pc="268435520" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="30" pc="268435531" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="32" pc="268435566" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="35" pc="268435576" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="36" pc="268435608" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="37" pc="268435631" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="40" pc="268435657" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="41" pc="268435668" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="42" pc="268435822" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="44" pc="268435835" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="45" pc="268435846" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="46" pc="268435869" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="48" pc="268435882" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="51" pc="268435908" symbol="reset"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="52" pc="268435912" symbol="reset"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="52" pc="268435933" symbol="reset"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="53" pc="268435962" symbol="reset"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="54" pc="268435975" symbol="reset"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="55" pc="268435988" symbol="reset"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="56" pc="268436001" symbol="reset"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="57" pc="268436014" symbol="reset"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="58" pc="268436027" symbol="reset"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="59" pc="268436040" symbol="reset"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="60" pc="268436053" symbol="reset"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="63" pc="268436064" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="64" pc="268436068" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="66" pc="268436068" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="67" pc="268436096" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="68" pc="268436124" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="70" pc="268436143" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="75" pc="268436191" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="76" pc="268436214" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="77" pc="268436230" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="78" pc="268436246" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="80" pc="268436265" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="80" pc="268436285" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="82" pc="268436298" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="84" pc="268436308" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="85" pc="268436349" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="86" pc="268436368" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="87" pc="268436385" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="88" pc="268436402" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="89" pc="268436412" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="90" pc="268436443" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="91" pc="268436457" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="92" pc="268436469" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="94" pc="268436473" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="95" pc="268436489" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="96" pc="268436505" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="98" pc="268436527" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="99" pc="268436558" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\TidyData.mc" lineNum="100" pc="268436568" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="9" pc="268436582" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="10" pc="268436586" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="11" pc="268436610" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="100" pc="268436629" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="101" pc="268436633" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="102" pc="268436651" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="105" pc="268436690" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="106" pc="268436694" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="107" pc="268436713" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="108" pc="268436729" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="109" pc="268436745" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="110" pc="268436782" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="111" pc="268436807" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="112" pc="268436844" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="113" pc="268436877" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="115" pc="268436912" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="118" pc="268436928" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="119" pc="268436961" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="120" pc="268436998" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="121" pc="268437014" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="125" pc="268437047" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="126" pc="268437064" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="128" pc="268437080" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="129" pc="268437097" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="132" pc="268437116" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="136" pc="268437149" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="137" pc="268437186" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="138" pc="268437223" symbol="onTimerLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="149" pc="268437256" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="150" pc="268437260" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="152" pc="268437282" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="153" pc="268437299" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="154" pc="268437312" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="155" pc="268437323" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="157" pc="268437336" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="161" pc="268437349" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="162" pc="268437362" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="163" pc="268437388" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="164" pc="268437414" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="166" pc="268437443" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="167" pc="268437461" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="168" pc="268437479" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="171" pc="268437494" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="172" pc="268437531" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="173" pc="268437568" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="174" pc="268437605" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="175" pc="268437642" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="176" pc="268437679" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="177" pc="268437716" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="178" pc="268437753" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="179" pc="268437790" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="181" pc="268437827" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="183" pc="268437849" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="184" pc="268437886" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="185" pc="268437923" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="188" pc="268437960" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="190" pc="268437997" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="191" pc="268438014" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="192" pc="268438030" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="193" pc="268438046" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="195" pc="268438065" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="196" pc="268438094" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="197" pc="268438119" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="199" pc="268438144" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="200" pc="268438181" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="201" pc="268438197" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="202" pc="268438218" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="204" pc="268438240" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="208" pc="268438256" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="214" pc="268438272" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="217" pc="268438317" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="219" pc="268438321" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="222" pc="268438363" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="224" pc="268438380" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="225" pc="268438423" symbol="compute"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="231" pc="268438488" symbol="onLayout"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="232" pc="268438492" symbol="onLayout"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="236" pc="268438505" symbol="onShow"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="237" pc="268438509" symbol="onShow"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="238" pc="268438519" symbol="onShow"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="241" pc="268438523" symbol="onHide"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="242" pc="268438527" symbol="onHide"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="245" pc="268438538" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="246" pc="268438542" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="247" pc="268438556" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="250" pc="268438560" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="252" pc="268438572" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="253" pc="268438600" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="255" pc="268438632" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="258" pc="268438647" symbol="setDeviceSettingsDependentVariables"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="259" pc="268438651" symbol="setDeviceSettingsDependentVariables"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="262" pc="268438668" symbol="setColors"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="263" pc="268438672" symbol="setColors"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="264" pc="268438683" symbol="setColors"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="267" pc="268438702" symbol="setColors"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="268" pc="268438761" symbol="setColors"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="269" pc="268438820" symbol="setColors"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="270" pc="268438879" symbol="setColors"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="271" pc="268438938" symbol="setColors"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="272" pc="268438997" symbol="setColors"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="273" pc="268439056" symbol="setColors"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="279" pc="268439119" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="281" pc="268439123" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="282" pc="268439140" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="284" pc="268439216" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="285" pc="268439252" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="286" pc="268439284" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="287" pc="268439316" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="288" pc="268439360" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="289" pc="268439383" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="291" pc="268439441" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="292" pc="268439462" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="295" pc="268439483" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="297" pc="268439515" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="298" pc="268439532" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="303" pc="268439549" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="304" pc="268439549" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="305" pc="268439582" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="307" pc="268439611" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="312" pc="268439621" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="313" pc="268439621" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="315" pc="268439631" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="316" pc="268439652" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="318" pc="268439675" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="321" pc="268439685" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="322" pc="268439701" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="323" pc="268439718" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="324" pc="268439780" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="326" pc="268439843" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="334" pc="268439905" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="336" pc="268439948" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="337" pc="268439965" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="338" pc="268440038" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="342" pc="268440117" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="343" pc="268440190" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="344" pc="268440207" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="346" pc="268440289" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="350" pc="268440368" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="351" pc="268440378" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="355" pc="268440398" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="356" pc="268440415" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="358" pc="268440497" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="365" pc="268440576" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="366" pc="268440593" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="367" pc="268440613" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="368" pc="268440649" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="370" pc="268440707" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="371" pc="268440743" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="375" pc="268440784" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="376" pc="268440818" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="377" pc="268440854" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="379" pc="268440920" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="380" pc="268440956" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="384" pc="268440988" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="385" pc="268441024" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="386" pc="268441062" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="387" pc="268441100" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="388" pc="268441138" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="390" pc="268441176" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="395" pc="268441232" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="396" pc="268441249" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="400" pc="268441288" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="401" pc="268441305" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="402" pc="268441341" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="404" pc="268441413" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="405" pc="268441449" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="407" pc="268441521" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="408" pc="268441557" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="410" pc="268441629" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="411" pc="268441665" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="413" pc="268441717" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="414" pc="268441753" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="419" pc="268441788" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="420" pc="268441820" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="421" pc="268441902" symbol="drawValues"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="428" pc="268441976" symbol="drawBlocSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="429" pc="268441980" symbol="drawBlocSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="431" pc="268442004" symbol="drawBlocSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="434" pc="268442036" symbol="drawBlocSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="437" pc="268442087" symbol="drawBlocSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="438" pc="268442116" symbol="drawBlocSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="441" pc="268442154" symbol="drawBlocSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="446" pc="268442178" symbol="drawBlocSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="447" pc="268442207" symbol="drawBlocSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="448" pc="268442242" symbol="drawBlocSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="461" pc="268442281" symbol="computeAverageSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="462" pc="268442285" symbol="computeAverageSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="463" pc="268442292" symbol="computeAverageSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="464" pc="268442305" symbol="computeAverageSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="465" pc="268442312" symbol="computeAverageSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="466" pc="268442336" symbol="computeAverageSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="467" pc="268442346" symbol="computeAverageSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="468" pc="268442356" symbol="computeAverageSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="471" pc="268442382" symbol="computeAverageSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="472" pc="268442393" symbol="computeAverageSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="474" pc="268442402" symbol="computeAverageSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="479" pc="268442409" symbol="msToTime"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="480" pc="268442413" symbol="msToTime"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="481" pc="268442429" symbol="msToTime"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="482" pc="268442445" symbol="msToTime"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="484" pc="268442455" symbol="msToTime"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="485" pc="268442460" symbol="msToTime"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="486" pc="268442471" symbol="msToTime"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="487" pc="268442482" symbol="msToTime"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="489" pc="268442502" symbol="msToTime"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="492" pc="268442522" symbol="msToTime"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="495" pc="268442531" symbol="msToTime"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="496" pc="268442542" symbol="msToTime"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="504" pc="268442622" symbol="msToTime"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="509" pc="268442700" symbol="convertDistance"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="510" pc="268442704" symbol="convertDistance"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="512" pc="268442704" symbol="convertDistance"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="513" pc="268442711" symbol="convertDistance"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="515" pc="268442721" symbol="convertDistance"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="518" pc="268442731" symbol="convertDistance"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="521" pc="268442785" symbol="getMinutesPerKmOrMile"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="522" pc="268442789" symbol="getMinutesPerKmOrMile"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="523" pc="268442810" symbol="getMinutesPerKmOrMile"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="524" pc="268442820" symbol="getMinutesPerKmOrMile"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="525" pc="268442833" symbol="getMinutesPerKmOrMile"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="526" pc="268442846" symbol="getMinutesPerKmOrMile"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="527" pc="268442859" symbol="getMinutesPerKmOrMile"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="529" pc="268442902" symbol="getMinutesPerKmOrMile"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="532" pc="268442912" symbol="afficheLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="534" pc="268442916" symbol="afficheLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="535" pc="268442935" symbol="afficheLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="536" pc="268442954" symbol="afficheLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="538" pc="268442973" symbol="afficheLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="539" pc="268442980" symbol="afficheLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="540" pc="268443027" symbol="afficheLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="541" pc="268443074" symbol="afficheLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="542" pc="268443121" symbol="afficheLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="543" pc="268443139" symbol="afficheLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="545" pc="268443149" symbol="afficheLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="546" pc="268443166" symbol="afficheLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="547" pc="268443210" symbol="afficheLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="548" pc="268443254" symbol="afficheLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="550" pc="268443301" symbol="afficheLap"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="558" pc="268443328" symbol="getDiffSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="560" pc="268443332" symbol="getDiffSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="561" pc="268443339" symbol="getDiffSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="562" pc="268443360" symbol="getDiffSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="563" pc="268443370" symbol="getDiffSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="564" pc="268443383" symbol="getDiffSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="567" pc="268443396" symbol="getDiffSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="568" pc="268443403" symbol="getDiffSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="569" pc="268443424" symbol="getDiffSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="570" pc="268443434" symbol="getDiffSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="571" pc="268443447" symbol="getDiffSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="574" pc="268443460" symbol="getDiffSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="575" pc="268443485" symbol="getDiffSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="577" pc="268443494" symbol="getDiffSpeed"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="593" pc="268443501" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="594" pc="268443505" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="595" pc="268443516" symbol="initialize"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="599" pc="268443527" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="600" pc="268443531" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="601" pc="268443550" symbol="add"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="605" pc="268443582" symbol="reset"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="606" pc="268443586" symbol="reset"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="607" pc="268443616" symbol="reset"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="609" pc="268443641" symbol="reset"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="613" pc="268443655" symbol="getData"/>
+<entry filename="C:\\Users\\Dell\\Downloads\\JOG01-01\\JOG01\\source\\JOG01Field.mc" lineNum="614" pc="268443659" symbol="getData"/>
+<entry filename="Rez" lineNum="24" pc="268443669" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="28" pc="268443681" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="29" pc="268443705" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="30" pc="268443868" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="31" pc="268443893" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="32" pc="268443945" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="33" pc="268443991" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="34" pc="268444154" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="35" pc="268444179" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="36" pc="268444231" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="39" pc="268444277" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="48" pc="268444315" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="52" pc="268444327" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="53" pc="268444351" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="54" pc="268444484" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="57" pc="268444617" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="66" pc="268444655" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="70" pc="268444667" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="71" pc="268444691" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="72" pc="268444824" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="75" pc="268444957" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="84" pc="268444995" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="88" pc="268445007" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="89" pc="268445031" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="90" pc="268445164" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="93" pc="268445297" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="102" pc="268445335" symbol="BottomRightLayout"/>
+<entry filename="Rez" lineNum="106" pc="268445347" symbol="BottomRightLayout"/>
+<entry filename="Rez" lineNum="107" pc="268445371" symbol="BottomRightLayout"/>
+<entry filename="Rez" lineNum="108" pc="268445504" symbol="BottomRightLayout"/>
+<entry filename="Rez" lineNum="111" pc="268445637" symbol="BottomRightLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388644" module="true" symbol="System"/>
-<entry field="true" id="38" symbol="paceData30"/>
-<entry id="15" method="true" symbol="getData"/>
-<entry field="true" id="56" symbol="timeLapStr"/>
+<entry field="true" id="42" symbol="paceData30"/>
+<entry id="16" method="true" symbol="getData"/>
+<entry field="true" id="60" symbol="timeLapStr"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
-<entry id="70" method="true" symbol="getMinutesPerKmOrMile"/>
+<entry id="80" method="true" symbol="getMinutesPerKmOrMile"/>
 <entry id="8389349" symbol="justification"/>
-<entry field="true" id="52" symbol="distLapCourant"/>
-<entry field="true" id="81" symbol="avgpace"/>
-<entry field="true" id="25" symbol="inactiveGpsBackground"/>
-<entry field="true" id="55" symbol="speedLapCourant"/>
-<entry field="true" id="80" symbol="pace"/>
-<entry field="true" id="58" symbol="ascension"/>
-<entry id="76" method="true" symbol="TopLeftLayout"/>
+<entry field="true" id="56" symbol="distLapCourant"/>
+<entry field="true" id="71" symbol="slideTime"/>
+<entry field="true" id="92" symbol="avgpace"/>
+<entry field="true" id="39" symbol="paceLapData"/>
+<entry field="true" id="26" symbol="inactiveGpsBackground"/>
+<entry field="true" id="59" symbol="speedLapCourant"/>
+<entry field="true" id="91" symbol="pace"/>
+<entry field="true" id="62" symbol="ascension"/>
+<entry field="true" id="40" symbol="timeLapData"/>
+<entry id="87" method="true" symbol="TopLeftLayout"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry field="true" id="32" symbol="avgPaceStr"/>
-<entry field="true" id="40" symbol="doUpdates"/>
-<entry field="true" id="30" symbol="headerColor"/>
-<entry field="true" id="46" symbol="compteurLap"/>
-<entry field="true" id="26" symbol="batteryBackground"/>
+<entry field="true" id="33" symbol="avgPaceStr"/>
+<entry field="true" id="99" symbol="distTotal"/>
+<entry field="true" id="44" symbol="doUpdates"/>
+<entry field="true" id="31" symbol="headerColor"/>
+<entry field="true" id="50" symbol="compteurLap"/>
+<entry field="true" id="27" symbol="batteryBackground"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry field="true" id="8389138" symbol="label"/>
-<entry id="69" method="true" symbol="convertDistance"/>
-<entry id="64" method="true" symbol="setColors"/>
-<entry id="78" method="true" symbol="BottomLeftLayout"/>
+<entry id="79" method="true" symbol="convertDistance"/>
+<entry id="74" method="true" symbol="setColors"/>
+<entry id="89" method="true" symbol="BottomLeftLayout"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry field="true" id="45" symbol="gpsSignal"/>
+<entry field="true" id="49" symbol="gpsSignal"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
-<entry field="true" id="22" symbol="textColor"/>
-<entry id="75" method="true" symbol="MainLayout"/>
+<entry field="true" id="23" symbol="textColor"/>
+<entry id="86" method="true" symbol="MainLayout"/>
 <entry field="true" id="8388751" symbol="averageCadence"/>
 <entry field="true" id="8389401" symbol="is24Hour"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry field="true" id="54" symbol="speedLap"/>
+<entry field="true" id="58" symbol="speedLap"/>
 <entry id="8389627" method="true" symbol="getBackgroundColor"/>
-<entry field="true" id="16" symbol="CENTER"/>
-<entry field="true" id="18" symbol="VALUE_FONT"/>
-<entry field="true" id="31" symbol="paceStr"/>
-<entry field="true" id="34" symbol="distanceStr"/>
-<entry field="true" id="60" symbol="hasBackgroundColorOption"/>
+<entry field="true" id="17" symbol="CENTER"/>
+<entry field="true" id="19" symbol="VALUE_FONT"/>
+<entry field="true" id="32" symbol="paceStr"/>
+<entry field="true" id="35" symbol="distanceStr"/>
+<entry field="true" id="65" symbol="hasBackgroundColorOption"/>
 <entry field="true" id="8389807" symbol="data"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="82" symbol="AppName"/>
-<entry field="true" id="35" symbol="durationStr"/>
-<entry id="10" object="true" symbol="JOG01View"/>
+<entry field="true" id="102" symbol="ready"/>
+<entry field="true" id="95" symbol="readIdx"/>
+<entry field="true" id="93" symbol="AppName"/>
+<entry field="true" id="36" symbol="durationStr"/>
+<entry id="11" object="true" symbol="JOG01View"/>
 <entry field="true" id="8388935" method="true" symbol="duration"/>
-<entry field="true" id="39" symbol="paceData3"/>
-<entry field="true" id="57" symbol="distLapOnLap"/>
-<entry field="true" id="48" symbol="distLapStr"/>
-<entry field="true" id="59" symbol="switchData"/>
-<entry field="true" id="74" symbol="LauncherIcon"/>
-<entry id="11" object="true" symbol="DataQueue"/>
-<entry field="true" id="27" symbol="batteryColor1"/>
+<entry field="true" id="43" symbol="paceData3"/>
+<entry id="9" object="true" symbol="TidyData"/>
+<entry field="true" id="97" symbol="distTrue"/>
+<entry field="true" id="61" symbol="distLapOnLap"/>
+<entry field="true" id="52" symbol="distLapStr"/>
+<entry field="true" id="63" symbol="switchData"/>
+<entry field="true" id="85" symbol="LauncherIcon"/>
+<entry field="true" id="100" symbol="timeTotal"/>
+<entry field="true" id="68" symbol="rolling"/>
+<entry id="12" object="true" symbol="DataQueue"/>
+<entry field="true" id="28" symbol="batteryColor1"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
 <entry field="true" id="8388750" symbol="currentCadence"/>
-<entry field="true" id="44" symbol="maxhr"/>
+<entry field="true" id="48" symbol="maxhr"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389137" method="true" symbol="compute"/>
-<entry field="true" id="12" symbol="maxSize"/>
+<entry field="true" id="13" symbol="maxSize"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry field="true" id="8388732" symbol="elapsedTime"/>
-<entry field="true" id="17" symbol="HEADER_FONT"/>
-<entry field="true" id="24" symbol="inverseBackgroundColor"/>
+<entry field="true" id="18" symbol="HEADER_FONT"/>
+<entry field="true" id="25" symbol="inverseBackgroundColor"/>
 <entry id="8388942" method="true" symbol="add"/>
-<entry id="67" method="true" symbol="computeAverageSpeed"/>
-<entry field="true" id="23" symbol="inverseTextColor"/>
-<entry id="77" method="true" symbol="TopRightLayout"/>
+<entry id="77" method="true" symbol="computeAverageSpeed"/>
+<entry field="true" id="24" symbol="inverseTextColor"/>
+<entry id="88" method="true" symbol="TopRightLayout"/>
 <entry id="8389348" symbol="font"/>
-<entry id="71" method="true" symbol="getDiffSpeed"/>
+<entry field="true" id="72" symbol="lapDist"/>
+<entry id="82" method="true" symbol="getDiffSpeed"/>
 <entry field="true" id="8389743" symbol="backgroundColor"/>
 <entry id="8389347" symbol="color"/>
-<entry field="true" id="29" symbol="lapColor"/>
-<entry field="true" id="50" symbol="timeLap"/>
+<entry field="true" id="30" symbol="lapColor"/>
+<entry field="true" id="54" symbol="timeLap"/>
+<entry id="81" method="true" symbol="afficheLap"/>
 <entry field="true" id="8388958" symbol="speed"/>
-<entry field="true" id="36" symbol="lapPaceStr"/>
-<entry field="true" id="20" symbol="ZERO_DISTANCE"/>
-<entry field="true" id="62" symbol="afficheSpeed"/>
-<entry field="true" id="19" symbol="ZERO_TIME"/>
-<entry field="true" id="33" symbol="hrStr"/>
-<entry field="true" id="37" symbol="paceData"/>
-<entry id="14" method="true" symbol="reset"/>
-<entry id="66" method="true" symbol="drawBlocSpeed"/>
+<entry field="true" id="37" symbol="lapPaceStr"/>
+<entry field="true" id="21" symbol="ZERO_DISTANCE"/>
+<entry field="true" id="67" symbol="afficheSpeed"/>
+<entry field="true" id="20" symbol="ZERO_TIME"/>
+<entry field="true" id="34" symbol="hrStr"/>
+<entry field="true" id="38" symbol="paceData"/>
+<entry field="true" id="41" symbol="distLapData"/>
+<entry id="15" method="true" symbol="reset"/>
+<entry field="true" id="98" symbol="timeTrue"/>
+<entry id="76" method="true" symbol="drawBlocSpeed"/>
+<entry field="true" id="70" symbol="slideSpd"/>
 <entry field="true" id="8388752" symbol="maxCadence"/>
 <entry field="true" id="8388911" symbol="distance"/>
-<entry field="true" id="49" symbol="durationLap"/>
-<entry id="73" module="true" symbol="Layouts"/>
-<entry field="true" id="28" symbol="hrColor"/>
+<entry field="true" id="53" symbol="durationLap"/>
+<entry id="84" module="true" symbol="Layouts"/>
+<entry field="true" id="29" symbol="hrColor"/>
 <entry field="true" id="8389402" symbol="distanceUnits"/>
-<entry id="79" method="true" symbol="BottomRightLayout"/>
-<entry field="true" id="13" symbol="pos"/>
+<entry id="90" method="true" symbol="BottomRightLayout"/>
+<entry field="true" id="14" symbol="pos"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry field="true" id="51" symbol="timeLapTmp"/>
-<entry field="true" id="53" symbol="timeLapCourant"/>
-<entry field="true" id="41" symbol="avgSpeed"/>
+<entry field="true" id="55" symbol="timeLapTmp"/>
+<entry field="true" id="64" symbol="switchDataPrec"/>
+<entry field="true" id="57" symbol="timeLapCourant"/>
+<entry field="true" id="45" symbol="avgSpeed"/>
 <entry field="true" id="8388740" symbol="maxSpeed"/>
-<entry id="68" method="true" symbol="msToTime"/>
+<entry field="true" id="96" symbol="dSz"/>
+<entry id="78" method="true" symbol="msToTime"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry field="true" id="43" symbol="avghr"/>
-<entry field="true" id="61" symbol="cpt"/>
+<entry field="true" id="47" symbol="avghr"/>
+<entry field="true" id="66" symbol="cpt"/>
 <entry field="true" id="8389063" symbol="identifier"/>
-<entry id="63" method="true" symbol="setDeviceSettingsDependentVariables"/>
-<entry id="65" method="true" symbol="drawValues"/>
-<entry id="72" module="true" symbol="Menus"/>
+<entry id="73" method="true" symbol="setDeviceSettingsDependentVariables"/>
+<entry id="75" method="true" symbol="drawValues"/>
+<entry id="83" module="true" symbol="Menus"/>
+<entry field="true" id="94" symbol="writeIdx"/>
 <entry id="8389751" method="true" symbol="onTimerLap"/>
-<entry id="9" object="true" symbol="JOG01Field"/>
-<entry field="true" id="42" symbol="hr"/>
-<entry field="true" id="47" symbol="distLap"/>
+<entry field="true" id="69" symbol="slideCad"/>
+<entry id="10" object="true" symbol="JOG01Field"/>
+<entry field="true" id="46" symbol="hr"/>
+<entry id="103" method="true" symbol="fm"/>
+<entry field="true" id="51" symbol="distLap"/>
+<entry field="true" id="101" symbol="cadTotal"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-<entry field="true" id="21" symbol="kmOrMileInMeters"/>
+<entry field="true" id="22" symbol="kmOrMileInMeters"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435501" name="view" stackId="1" startPc="268435460"/>
-<entry endPc="268436864" name="timeLapSecond" stackId="2" startPc="268436792"/>
-<entry endPc="268436884" name="info" stackId="1" startPc="268435867"/>
-<entry endPc="268436901" name="dc" stackId="1" startPc="268436884"/>
-<entry endPc="268437043" name="dc" stackId="1" startPc="268436934"/>
-<entry endPc="268439907" name="battery" stackId="4" startPc="268437519"/>
-<entry endPc="268439907" name="durationLap" stackId="6" startPc="268437519"/>
-<entry endPc="268439907" name="computeAvgSpeed" stackId="5" startPc="268437519"/>
-<entry endPc="268439907" name="avgSpeedKmh" stackId="7" startPc="268437519"/>
-<entry endPc="268439907" name="timeEtude" stackId="9" startPc="268437519"/>
-<entry endPc="268439907" name="clockTime" stackId="2" startPc="268437519"/>
-<entry endPc="268439907" name="duration" stackId="8" startPc="268437519"/>
-<entry endPc="268439907" name="time" stackId="3" startPc="268437519"/>
-<entry endPc="268439908" name="dc" stackId="1" startPc="268437515"/>
-<entry endPc="268440161" name="speed2" stackId="3" startPc="268439908"/>
-<entry endPc="268440161" name="dc" stackId="1" startPc="268439908"/>
-<entry endPc="268440161" name="speed1" stackId="2" startPc="268439908"/>
-<entry endPc="268440161" name="decalage" stackId="4" startPc="268439908"/>
-<entry endPc="268440262" name="i" stackId="5" startPc="268440216"/>
-<entry endPc="268440288" name="size" stackId="2" startPc="268440165"/>
-<entry endPc="268440288" name="data" stackId="3" startPc="268440165"/>
-<entry endPc="268440288" name="sumOfData" stackId="4" startPc="268440165"/>
-<entry endPc="268440289" name="tableau" stackId="1" startPc="268440161"/>
-<entry endPc="268440677" name="hours" stackId="5" startPc="268440293"/>
-<entry endPc="268440677" name="minutes" stackId="4" startPc="268440293"/>
-<entry endPc="268440677" name="seconds" stackId="3" startPc="268440293"/>
-<entry endPc="268440678" name="isHour" stackId="2" startPc="268440289"/>
-<entry endPc="268440678" name="ms" stackId="1" startPc="268440289"/>
-<entry endPc="268440762" name="result" stackId="2" startPc="268440682"/>
-<entry endPc="268440763" name="metres" stackId="1" startPc="268440678"/>
-<entry endPc="268440877" name="minutesPerKmOrMilesFloor" stackId="4" startPc="268440788"/>
-<entry endPc="268440877" name="metersPerMinute" stackId="2" startPc="268440788"/>
-<entry endPc="268440877" name="seconds" stackId="5" startPc="268440788"/>
-<entry endPc="268440877" name="minutesPerKmOrMilesDecimal" stackId="3" startPc="268440788"/>
-<entry endPc="268440890" name="speedMetersPerSecond" stackId="1" startPc="268440763"/>
-<entry endPc="268440955" name="metersPerMinute1" stackId="4" startPc="268440922"/>
-<entry endPc="268440955" name="minutesPerKmOrMilesDecimal1" stackId="5" startPc="268440922"/>
-<entry endPc="268441019" name="metersPerMinute2" stackId="7" startPc="268440986"/>
-<entry endPc="268441019" name="minutesPerKmOrMilesDecimal2" stackId="8" startPc="268440986"/>
-<entry endPc="268441062" name="secondesPerKmOrMilesDecimal2" stackId="6" startPc="268440894"/>
-<entry endPc="268441062" name="secondesPerKmOrMilesDecimal1" stackId="3" startPc="268440894"/>
-<entry endPc="268441063" name="speedMetersPerSecond1" stackId="1" startPc="268440890"/>
-<entry endPc="268441063" name="speedMetersPerSecond2" stackId="2" startPc="268440890"/>
-<entry endPc="268441089" name="arraySize" stackId="1" startPc="268441063"/>
-<entry endPc="268441144" name="element" stackId="1" startPc="268441089"/>
-<entry endPc="268441203" name="i" stackId="1" startPc="268441178"/>
-<entry endPc="268441876" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268441243"/>
-<entry endPc="268441876" name="rez_cmp_local_bitmap_value_fontHeight" stackId="6" startPc="268441243"/>
-<entry endPc="268441876" name="rez_cmp_local_bitmap_value" stackId="5" startPc="268441243"/>
-<entry endPc="268441876" name="rez_cmp_local_bitmap_label_fontHeight" stackId="4" startPc="268441243"/>
-<entry endPc="268441876" name="rez_cmp_local_custom_drawable_758GJA0WNOY4YYR2BX47" stackId="2" startPc="268441243"/>
-<entry endPc="268441877" name="dc" stackId="1" startPc="268441231"/>
-<entry endPc="268442216" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268441889"/>
-<entry endPc="268442216" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268441889"/>
-<entry endPc="268442216" name="rez_cmp_local_custom_drawable_IFT7Y7TV2V3J6ILGPVYZ" stackId="2" startPc="268441889"/>
-<entry endPc="268442217" name="dc" stackId="1" startPc="268441877"/>
-<entry endPc="268442556" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268442229"/>
-<entry endPc="268442556" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268442229"/>
-<entry endPc="268442556" name="rez_cmp_local_custom_drawable_VJFBXF0XISKPWSHT44K6" stackId="2" startPc="268442229"/>
-<entry endPc="268442557" name="dc" stackId="1" startPc="268442217"/>
-<entry endPc="268442896" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268442569"/>
-<entry endPc="268442896" name="rez_cmp_local_custom_drawable_PEV1VLX65PV4F2WUGXTL" stackId="2" startPc="268442569"/>
-<entry endPc="268442896" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268442569"/>
-<entry endPc="268442897" name="dc" stackId="1" startPc="268442557"/>
-<entry endPc="268443236" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268442909"/>
-<entry endPc="268443236" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268442909"/>
-<entry endPc="268443236" name="rez_cmp_local_custom_drawable_DO6N6S8QIQWGYCX2ROZZ" stackId="2" startPc="268442909"/>
-<entry endPc="268443237" name="dc" stackId="1" startPc="268442897"/>
+<entry endPc="268435486" name="fm" stackId="1" startPc="268435460"/>
+<entry endPc="268435907" name="_fm" stackId="4" startPc="268435491"/>
+<entry endPc="268435907" name="max" stackId="2" startPc="268435491"/>
+<entry endPc="268435907" name="nrOf" stackId="3" startPc="268435491"/>
+<entry endPc="268435908" name="lDist" stackId="1" startPc="268435487"/>
+<entry endPc="268435962" name="a" stackId="1" startPc="268435933"/>
+<entry endPc="268436581" name="prevRead" stackId="8" startPc="268436068"/>
+<entry endPc="268436581" name="tmp" stackId="7" startPc="268436068"/>
+<entry endPc="268436581" name="t" stackId="5" startPc="268436068"/>
+<entry endPc="268436581" name="d" stackId="4" startPc="268436068"/>
+<entry endPc="268436581" name="c" stackId="6" startPc="268436068"/>
+<entry endPc="268436582" name="cad" stackId="3" startPc="268436064"/>
+<entry endPc="268436582" name="time" stackId="2" startPc="268436064"/>
+<entry endPc="268436582" name="dist" stackId="1" startPc="268436064"/>
+<entry endPc="268436627" name="view" stackId="1" startPc="268436586"/>
+<entry endPc="268438253" name="timeLapSecond" stackId="2" startPc="268438181"/>
+<entry endPc="268438488" name="info" stackId="1" startPc="268437256"/>
+<entry endPc="268438505" name="dc" stackId="1" startPc="268438488"/>
+<entry endPc="268438647" name="dc" stackId="1" startPc="268438538"/>
+<entry endPc="268441975" name="durationLap" stackId="7" startPc="268439549"/>
+<entry endPc="268441975" name="avgSpeedKmh" stackId="10" startPc="268439549"/>
+<entry endPc="268441975" name="vitesse" stackId="11" startPc="268439549"/>
+<entry endPc="268441975" name="timeEtude" stackId="9" startPc="268439549"/>
+<entry endPc="268441975" name="duration" stackId="8" startPc="268439549"/>
+<entry endPc="268441975" name="battery" stackId="4" startPc="268439123"/>
+<entry endPc="268441975" name="computeAvgSpeed" stackId="5" startPc="268439123"/>
+<entry endPc="268441975" name="clockTime" stackId="2" startPc="268439123"/>
+<entry endPc="268441975" name="time" stackId="3" startPc="268439123"/>
+<entry endPc="268441975" name="computeAvgSpeed30" stackId="6" startPc="268439123"/>
+<entry endPc="268441976" name="dc" stackId="1" startPc="268439119"/>
+<entry endPc="268442281" name="speed2" stackId="3" startPc="268441976"/>
+<entry endPc="268442281" name="dc" stackId="1" startPc="268441976"/>
+<entry endPc="268442281" name="speed1" stackId="2" startPc="268441976"/>
+<entry endPc="268442281" name="decalage" stackId="4" startPc="268441976"/>
+<entry endPc="268442382" name="i" stackId="5" startPc="268442336"/>
+<entry endPc="268442408" name="size" stackId="2" startPc="268442285"/>
+<entry endPc="268442408" name="data" stackId="3" startPc="268442285"/>
+<entry endPc="268442408" name="sumOfData" stackId="4" startPc="268442285"/>
+<entry endPc="268442409" name="tableau" stackId="1" startPc="268442281"/>
+<entry endPc="268442699" name="hours" stackId="5" startPc="268442413"/>
+<entry endPc="268442699" name="minutes" stackId="4" startPc="268442413"/>
+<entry endPc="268442699" name="seconds" stackId="3" startPc="268442413"/>
+<entry endPc="268442700" name="isHour" stackId="2" startPc="268442409"/>
+<entry endPc="268442700" name="ms" stackId="1" startPc="268442409"/>
+<entry endPc="268442784" name="result" stackId="2" startPc="268442704"/>
+<entry endPc="268442785" name="metres" stackId="1" startPc="268442700"/>
+<entry endPc="268442899" name="minutesPerKmOrMilesFloor" stackId="4" startPc="268442810"/>
+<entry endPc="268442899" name="metersPerMinute" stackId="2" startPc="268442810"/>
+<entry endPc="268442899" name="seconds" stackId="5" startPc="268442810"/>
+<entry endPc="268442899" name="minutesPerKmOrMilesDecimal" stackId="3" startPc="268442810"/>
+<entry endPc="268442912" name="speedMetersPerSecond" stackId="1" startPc="268442785"/>
+<entry endPc="268443327" name="i" stackId="6" startPc="268443139"/>
+<entry endPc="268443327" name="datad" stackId="4" startPc="268442916"/>
+<entry endPc="268443327" name="data" stackId="2" startPc="268442916"/>
+<entry endPc="268443327" name="y" stackId="5" startPc="268442916"/>
+<entry endPc="268443327" name="datat" stackId="3" startPc="268442916"/>
+<entry endPc="268443328" name="dc" stackId="1" startPc="268442912"/>
+<entry endPc="268443393" name="metersPerMinute1" stackId="4" startPc="268443360"/>
+<entry endPc="268443393" name="minutesPerKmOrMilesDecimal1" stackId="5" startPc="268443360"/>
+<entry endPc="268443457" name="metersPerMinute2" stackId="7" startPc="268443424"/>
+<entry endPc="268443457" name="minutesPerKmOrMilesDecimal2" stackId="8" startPc="268443424"/>
+<entry endPc="268443500" name="secondesPerKmOrMilesDecimal2" stackId="6" startPc="268443332"/>
+<entry endPc="268443500" name="secondesPerKmOrMilesDecimal1" stackId="3" startPc="268443332"/>
+<entry endPc="268443501" name="speedMetersPerSecond1" stackId="1" startPc="268443328"/>
+<entry endPc="268443501" name="speedMetersPerSecond2" stackId="2" startPc="268443328"/>
+<entry endPc="268443527" name="arraySize" stackId="1" startPc="268443501"/>
+<entry endPc="268443582" name="element" stackId="1" startPc="268443527"/>
+<entry endPc="268443641" name="i" stackId="1" startPc="268443616"/>
+<entry endPc="268444314" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268443681"/>
+<entry endPc="268444314" name="rez_cmp_local_bitmap_value_fontHeight" stackId="6" startPc="268443681"/>
+<entry endPc="268444314" name="rez_cmp_local_custom_drawable_F12130NO0BR0HBH4YI2B" stackId="2" startPc="268443681"/>
+<entry endPc="268444314" name="rez_cmp_local_bitmap_value" stackId="5" startPc="268443681"/>
+<entry endPc="268444314" name="rez_cmp_local_bitmap_label_fontHeight" stackId="4" startPc="268443681"/>
+<entry endPc="268444315" name="dc" stackId="1" startPc="268443669"/>
+<entry endPc="268444654" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268444327"/>
+<entry endPc="268444654" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268444327"/>
+<entry endPc="268444654" name="rez_cmp_local_custom_drawable_KKIUFBD7E7NNYOPOVHU1" stackId="2" startPc="268444327"/>
+<entry endPc="268444655" name="dc" stackId="1" startPc="268444315"/>
+<entry endPc="268444994" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268444667"/>
+<entry endPc="268444994" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268444667"/>
+<entry endPc="268444994" name="rez_cmp_local_custom_drawable_AUZV4FHJS8PYGH0536F2" stackId="2" startPc="268444667"/>
+<entry endPc="268444995" name="dc" stackId="1" startPc="268444655"/>
+<entry endPc="268445334" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268445007"/>
+<entry endPc="268445334" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268445007"/>
+<entry endPc="268445334" name="rez_cmp_local_custom_drawable_M24STKP8S8T9GO7RX1X6" stackId="2" startPc="268445007"/>
+<entry endPc="268445335" name="dc" stackId="1" startPc="268444995"/>
+<entry endPc="268445674" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268445347"/>
+<entry endPc="268445674" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268445347"/>
+<entry endPc="268445674" name="rez_cmp_local_custom_drawable_8X7UEROWPGNB9J2VVT7C" stackId="2" startPc="268445347"/>
+<entry endPc="268445675" name="dc" stackId="1" startPc="268445335"/>
 </localVars>
 <annotations/>
 <functions>
+<functionEntry accessMode="public" name="fm" parent="TidyData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="TidyData">
+<param id="lDist"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="reset" parent="TidyData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="add" parent="TidyData">
+<param id="dist"/>
+<param id="time"/>
+<param id="cad"/>
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="getInitialView" parent="JOG01Field">
 <documentation/>
 </functionEntry>
@@ -500,6 +662,10 @@
 <param id="speedMetersPerSecond"/>
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="public" name="afficheLap" parent="JOG01View">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="getDiffSpeed" parent="JOG01View">
 <param id="speedMetersPerSecond1"/>
 <param id="speedMetersPerSecond2"/>
@@ -542,15 +708,16 @@
 </functions>
 <dataEntryOffsetMappings>
 <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
-<dataEntry offset="166" parentId="globals" symbolId="DataQueue" type="class"/>
-<dataEntry offset="261" parentId="globals" symbolId="JOG01View" type="class"/>
-<dataEntry offset="884" parentId="globals" symbolId="JOG01Field" type="class"/>
-<dataEntry offset="939" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="1018" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="1057" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="1088" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="1119" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="1150" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="1221" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="182" parentId="globals" symbolId="DataQueue" type="class"/>
+<dataEntry offset="277" parentId="globals" symbolId="JOG01View" type="class"/>
+<dataEntry offset="980" parentId="globals" symbolId="JOG01Field" type="class"/>
+<dataEntry offset="1035" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="1114" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="1153" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="1184" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="1215" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="1246" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="1317" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="1404" parentId="globals" symbolId="TidyData" type="class"/>
 </dataEntryOffsetMappings>
 </debugInfo>
