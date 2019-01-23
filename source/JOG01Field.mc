@@ -349,7 +349,7 @@ class JOG01View extends Ui.DataField {
             
             var vitesse = speed;
             if (slideSpd > 0){
-                //vitesse = slideSpd;
+                vitesse = slideSpd;
             }
                 
             if (vitesse/3.6<1.67){
@@ -362,23 +362,26 @@ class JOG01View extends Ui.DataField {
            
    
             //tendance speed
-            if (switchData == 0){
+            if (switchData == 0 && timeLap>10000){
                 if (avgSpeed>speedLap){
                     dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-                    drawBlocSpeed(dc,avgSpeed,speedLap,0);
+                    drawBlocSpeed(dc,avgSpeed,speedLap,120);
                 }else if (speedLap>avgSpeed){
                      dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
-                    drawBlocSpeed(dc,speedLap,avgSpeed,0);
+                    drawBlocSpeed(dc,speedLap,avgSpeed,120);
                 }
             }
-   
-            if (computeAvgSpeed>speedLap && speedLap>0){
-                dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
-                drawBlocSpeed(dc,computeAvgSpeed,speedLap,120);
-            }else if (speedLap>computeAvgSpeed && speedLap>0){
-                 dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-                 drawBlocSpeed(dc,speedLap,computeAvgSpeed,120);
-            }
+   			
+   			if (timeLap>10000){
+   			    if (computeAvgSpeed>speedLap && speedLap>0){
+	                dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
+	                drawBlocSpeed(dc,computeAvgSpeed,speedLap,0);
+	            }else if (speedLap>computeAvgSpeed && speedLap>0){
+	                 dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+	                 drawBlocSpeed(dc,speedLap,computeAvgSpeed,0);
+	            }
+   			}
+
    
             //GRID
             dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_TRANSPARENT);
@@ -418,7 +421,7 @@ class JOG01View extends Ui.DataField {
             //HR
             dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
             dc.drawText(dc.getWidth()/2+20 ,219, Graphics.FONT_MEDIUM, hr.format("%d"), CENTER);// hr.format("%d")
-            dc.drawText(dc.getWidth() /2-25 , 217, Graphics.FONT_SYSTEM_XTINY,getMinutesPerKmOrMile(computeAvgSpeed), CENTER);
+            dc.drawText(dc.getWidth() /2-25 , 217, Graphics.FONT_SYSTEM_XTINY,getMinutesPerKmOrMile(speed / 3.6), CENTER);
             
         }
  
@@ -426,35 +429,10 @@ class JOG01View extends Ui.DataField {
 
 
     function drawBlocSpeed(dc, speed1, speed2,decalage){
-        if (getDiffSpeed(speed1,speed2)<=10){
+        if (getDiffSpeed(speed1,speed2)>=0){
             //dc.fillPolygon([[20+decalage,81],[20+decalage, 95],[31+decalage,88]]);
-            dc.fillRectangle(decalage, 81, 38, 14);
-        }
-       
-        if (getDiffSpeed(speed1,speed2)>10 && getDiffSpeed(speed1,speed2)<=20){
-            //dc.fillPolygon([[20+decalage,81],[20+decalage, 95],[31+decalage,88]]);
-            //dc.fillPolygon([[33+decalage,81],[33+decalage, 95],[44+decalage,88]]);
-            dc.fillRectangle(decalage, 81, 38, 14);
-            dc.fillRectangle(decalage+40, 81, 38, 14);
-        }
-       
-        if (getDiffSpeed(speed1,speed2)>20){
-            //dc.fillPolygon([[20+decalage,81],[20+decalage, 95],[31+decalage,88]]);
-            //dc.fillPolygon([[33+decalage,81],[33+decalage, 95],[44+decalage,88]]);
-            //dc.fillPolygon([[46+decalage,81],[46+decalage, 95],[57+decalage,88]]);
-            
-            dc.fillRectangle(decalage, 81, 38, 14);
-            dc.fillRectangle(decalage+40, 81, 38, 14);
-            dc.fillRectangle(decalage+80, 81, 38, 14);
-        }
-       
-        //if (getDiffSpeed(speed1,speed2)>30){
-        //       dc.fillPolygon([[20+decalage,81],[20+decalage, 95],[31+decalage,88]]);
-        //    dc.fillPolygon([[33+decalage,81],[33+decalage, 95],[44+decalage,88]]);
-        //        dc.fillPolygon([[46+decalage,81],[46+decalage, 95],[57+decalage,88]]);
-        //        dc.fillPolygon([[59+decalage,81],[59+decalage, 95],[70+decalage,88]]);
-        //    dc.fillPolygon([[72+decalage,81],[72+decalage, 95],[83+decalage,88]]);
-        //}
+			dc.fillRectangle(decalage+40, 81, 38, 14);
+        }       
     }
    
 
