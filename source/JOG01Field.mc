@@ -46,7 +46,10 @@ class JOG01View extends Ui.DataField {
    
     hidden var paceData30 = new DataQueue(30);
     hidden var paceData3 = new DataQueue(3);
-
+    
+    hidden var distData = new DataQueue2(30);
+    hidden var timeData = new DataQueue2(30);
+    
     hidden var doUpdates = 0;
    
     hidden var speed = 0;
@@ -94,7 +97,7 @@ class JOG01View extends Ui.DataField {
     var slideSpd = 0.0;
     var slideTime = 0;
    
-    var lapDist = 50;
+    var lapDist = 100;
    
        
     function initialize() {
@@ -168,6 +171,22 @@ class JOG01View extends Ui.DataField {
             paceData3.reset;
         }
        
+        if (info.elapsedDistance != null){
+        	distData.slide();
+            distData.add(info.elapsedDistance);
+       		//distData.affiche();
+       		//System.println(distData.diffData());
+        }
+        
+        if (info.elapsedTime != null){
+        	timeData.slide();
+            timeData.add(info.elapsedTime);
+       		//timeData.affiche();
+       		//System.println("temps : "  + distData.diffData() + " - " + timeData.diffData());
+       		if (timeData.diffData()>0){
+       		   //System.println("vitesse " + getMinutesPerKmOrMile(distData.diffData().toDouble()/(timeData.diffData().toDouble()/1000)));
+       		}
+        }
         speed = info.currentSpeed != null ? info.currentSpeed : 0;
         avgSpeed = info.averageSpeed != null ? info.averageSpeed : 0;
         maxSpeed = info.maxSpeed != null ? info.maxSpeed : 0;
@@ -332,11 +351,48 @@ class JOG01View extends Ui.DataField {
    
            
             dc.drawText(200, 163, HEADER_FONT, "km", CENTER);
+            
+            
+                    //tendance speed
+            if (switchData == 0 && timeLap>10000){
+                if (avgSpeed<3.33333333){
+                //if (avgSpeed>(speedLap+0.02)){
+                    dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_TRANSPARENT);
+                    //drawBlocSpeed(dc,avgSpeed,speedLap,120);
+                    //if (getDiffSpeed(3.33333333,avgSpeed)>=0){
+            		//dc.fillPolygon([[20+decalage,81],[20+decalage, 95],[31+decalage,88]]);
+				     dc.fillRectangle(0, 81, 240, 69);
+        			//}  
+                //}else if (speedLap>(avgSpeed+0.02)){
+                }else if (avgSpeed>3.47222222){
+                     dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
+                     //if (getDiffSpeed(speedLap,avgSpeed)>=0){
+            		  //dc.fillPolygon([[20+decalage,81],[20+decalage, 95],[31+decalage,88]]);
+				      dc.fillRectangle(0, 81, 240, 69);
+        			//}  
+                }
+                
+              
+            }
+            
+            dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
+            
            
             if (switchData == 0){
                 dc.drawText(dc.getWidth()/2, 180, Graphics.FONT_NUMBER_HOT, convertDistance(distance), CENTER);//convertDistance(distance)
-                dc.drawText(dc.getWidth() /2+60 , 121, Graphics.FONT_NUMBER_HOT, avgSpeedKmh.format("%.1f"), CENTER); 
+                
+                if (speedLap>avgSpeed){
+                	//dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
+                }
+                
+                if (speedLap<avgSpeed){
+                	//dc.setColor(Graphics.COLOR_ORANGE, Graphics.COLOR_TRANSPARENT);
+                }
+                
+                dc.drawText(dc.getWidth() /2 , 118, Graphics.FONT_NUMBER_THAI_HOT,getMinutesPerKmOrMile(avgSpeed), CENTER); // avgSpeedKmh.format("%.1f")
           		//dc.drawText(dc.getWidth() /2+60, 121, Graphics.FONT_NUMBER_MEDIUM,getMinutesPerKmOrMile(computeAvgSpeed30) , CENTER);
+          	    
+          	    //dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
           		
             }else{
                 dc.drawText(dc.getWidth()/2, 180, Graphics.FONT_NUMBER_HOT, convertDistance(distLap), CENTER);//convertDistance(distance)
@@ -349,36 +405,32 @@ class JOG01View extends Ui.DataField {
             
             var vitesse = speed;
             if (slideSpd > 0){
-                vitesse = slideSpd;
+                //vitesse = slideSpd;
             }
+            //System.println( timeData.diffData() + " - " +  distData.diffData());
+            if (timeData.diffData()>0 && distData.diffData()>0){
+       		   //vitesse  = distData.diffData().toDouble()/(timeData.diffData().toDouble()/1000)*3.6;
+       		   //System.println("vitesse " + getMinutesPerKmOrMile(distData.diffData().toDouble()/(timeData.diffData().toDouble()/1000)));
+       		}    
                 
             if (vitesse/3.6<1.67){
-                dc.drawText(dc.getWidth() /2-60 , 121, Graphics.FONT_NUMBER_MEDIUM,getMinutesPerKmOrMile(vitesse / 3.6) , CENTER);
+                //dc.drawText(dc.getWidth() /2-60 , 121, Graphics.FONT_NUMBER_MEDIUM,getMinutesPerKmOrMile(vitesse / 3.6) , CENTER);
             }else{
-            	dc.drawText(dc.getWidth() /2-60 , 121, Graphics.FONT_NUMBER_HOT,getMinutesPerKmOrMile(vitesse / 3.6) , CENTER);
+            	//dc.drawText(dc.getWidth() /2-60 , 121, Graphics.FONT_NUMBER_HOT,getMinutesPerKmOrMile(vitesse / 3.6) , CENTER);
             } 
            
            
            
    
-            //tendance speed
-            if (switchData == 0 && timeLap>10000){
-                if (avgSpeed>speedLap){
-                    dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-                    drawBlocSpeed(dc,avgSpeed,speedLap,120);
-                }else if (speedLap>avgSpeed){
-                     dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
-                    drawBlocSpeed(dc,speedLap,avgSpeed,120);
-                }
-            }
+    
    			
    			if (timeLap>10000){
    			    if (computeAvgSpeed>speedLap && speedLap>0){
 	                dc.setColor(Graphics.COLOR_GREEN, Graphics.COLOR_TRANSPARENT);
-	                drawBlocSpeed(dc,computeAvgSpeed,speedLap,0);
+	                //drawBlocSpeed(dc,computeAvgSpeed,speedLap,0);
 	            }else if (speedLap>computeAvgSpeed && speedLap>0){
 	                 dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-	                 drawBlocSpeed(dc,speedLap,computeAvgSpeed,0);
+	                 //drawBlocSpeed(dc,speedLap,computeAvgSpeed,0);
 	            }
    			}
 
@@ -390,7 +442,7 @@ class JOG01View extends Ui.DataField {
             dc.drawLine(0,150, dc.getWidth(), 150);
             dc.drawLine(0,151, dc.getWidth(), 151);
            
-             dc.drawLine(dc.getWidth()/2,81, dc.getWidth()/2, 150);
+             //dc.drawLine(dc.getWidth()/2,81, dc.getWidth()/2, 150);
            
      
                    
@@ -421,7 +473,13 @@ class JOG01View extends Ui.DataField {
             //HR
             dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
             dc.drawText(dc.getWidth()/2+20 ,219, Graphics.FONT_MEDIUM, hr.format("%d"), CENTER);// hr.format("%d")
-            dc.drawText(dc.getWidth() /2-25 , 217, Graphics.FONT_SYSTEM_XTINY,getMinutesPerKmOrMile(speed / 3.6), CENTER);
+            
+            var vitesse1 = speed;
+            if (timeData.diffData()>0 && distData.diffData()>0){
+       		   vitesse1  = distData.diffData().toDouble()/(timeData.diffData().toDouble()/1000)*3.6;
+       		   //System.println("vitesse " + getMinutesPerKmOrMile(distData.diffData().toDouble()/(timeData.diffData().toDouble()/1000)));
+       		}    
+            dc.drawText(dc.getWidth() /2-25 , 217, Graphics.FONT_SYSTEM_XTINY,getMinutesPerKmOrMile(vitesse / 3.6), CENTER);//getMinutesPerKmOrMile(vitesse1 / 3.6)
             
         }
  
@@ -591,4 +649,73 @@ class DataQueue {
     function getData() {
         return data;
     }
+}
+
+
+//! A circular queue implementation.
+//! @author Konrad Paumann
+class DataQueue2 {
+
+    //! the data array.
+    hidden var data;
+    hidden var maxSize = 0;
+    hidden var pos = 0;
+    hidden var difference = 0;
+
+    //! precondition: size has to be >= 2
+    function initialize(arraySize) {
+        data = new[arraySize];
+        maxSize = arraySize;
+    }
+   
+    //! Add an element to the queue.
+    function add(element) {
+    	//System.print("pos " + pos + " ");
+        data[pos] = element;
+        if (pos < maxSize-1){
+        	pos = pos + 1;
+        }
+    }
+    
+    function slide(){
+    	if (data[maxSize-1] != null){
+    		for (var i=0;i<data.size()-1;i++){
+    			data[i] = data[i+1];
+    		}
+    	}
+    }
+   
+    //! Reset the queue to its initial state.
+    function reset() {
+        for (var i = 0; i < data.size(); i++) {
+            data[i] = null;
+        }
+        pos = 0;
+    }
+   
+    //! Get the underlying data array.
+    function getData() {
+        return data;
+    }
+    
+    function affiche() {
+    	if(data[maxSize-1] != null){
+    		for (var i = 0; i < data.size(); i++) {
+           		System.print(data[i]);
+           		System.print(" ");
+        	}
+       		 //System.println("saut : " + (data[maxSize-1].toDouble() - data[0].toDouble()));
+    	}
+        
+    }
+    
+    function diffData(){
+    	if(data[maxSize-1] != null){
+    		return data[maxSize-1].toDouble() - data[0].toDouble();
+    	}else {
+    		return 0;
+    	}
+    }
+    
+
 }
